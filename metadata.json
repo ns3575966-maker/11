@@ -1,0 +1,6 @@
+{
+  "name": "Tim Hortons India — 3D Concept Redesign",
+  "description": "A premium, modern 3D coffee shop website redesign concept inspired by Tim Hortons India featuring interactive Three.js coffee cup, digital menu, cafe locator, and order customizer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

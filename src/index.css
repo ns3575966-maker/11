@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'DM Sans', sans-serif;
+  }
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Outfit', sans-serif;
+  }
+  .font-brand {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #120B09;
+}
+::-webkit-scrollbar-thumb {
+  background: #3B2A23;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C8102E;
+}
+
+/* Glassmorphism classes */
+.glass-panel {
+  background: rgba(30, 20, 16, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(245, 235, 224, 0.08);
+}
+
+.glass-panel-light {
+  background: rgba(250, 246, 238, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(43, 29, 23, 0.1);
+}
+
+.glass-card {
+  background: linear-gradient(135deg, rgba(43, 29, 23, 0.6) 0%, rgba(25, 17, 13, 0.8) 100%);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(245, 235, 224, 0.08);
+}
+
+.glass-card:hover {
+  border-color: rgba(200, 16, 46, 0.4);
+}
+
+/* Red accent glowing effect */
+.glow-red {
+  box-shadow: 0 0 25px rgba(200, 16, 46, 0.3);
+}
+
+/* Text clamp balances */
+.text-balance {
+  text-wrap: balance;
+}
